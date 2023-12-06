@@ -32,7 +32,7 @@ const MainSection = () => {
                 </div>
             </div>
             <div className="col-lg-6">
-                <div className="pt-5">
+                <div className="pt-3">
                     <h2 className="pb-5">Kunden</h2>
                     <CustomerTable handleRead={handleRead} />
                 </div>
