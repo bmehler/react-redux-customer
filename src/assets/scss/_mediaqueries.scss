@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+ .edit-label, 
+ .delete-label {
+    display: none;
+ }
+}
+
+@media only screen and (max-width: 1180px) and (orientation: landscape) {
+   .edit-label,
+   .delete-label {
+      display: none;
+   }
+}
