@@ -38,6 +38,7 @@ function AddCustomer() {
     return (
         <div>
             {error && error}
+            <h2 className="pb-3">Neu anlegen</h2>
             <div className="mb-3">
                 <label htmlFor="firstname" className="form-label fw-bold">Vorname</label>
                 <input

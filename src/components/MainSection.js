@@ -23,7 +23,6 @@ const MainSection = () => {
         <div className="row">
             <div className="col-lg-6">
                 <div className="pt-3">
-                    <h2 className="pb-5">Neu anlegen</h2>
                     {!editing ? (
                         <AddCustomer />
                     ) : (
@@ -33,7 +32,7 @@ const MainSection = () => {
             </div>
             <div className="col-lg-6">
                 <div className="pt-3">
-                    <h2 className="pb-5">Kunden</h2>
+                    <h2 className="pb-3">Kunden</h2>
                     <CustomerTable handleRead={handleRead} />
                 </div>
             </div>

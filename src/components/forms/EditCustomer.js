@@ -54,6 +54,7 @@ export function EditCustomer(props) {
     return (
         <div>
             {error && error}
+            <h2 className="pb-3">Kunde editieren</h2>
             <div className="mb-3">
                 <div key={customer.id}>
                     <input
